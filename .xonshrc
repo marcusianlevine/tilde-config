@@ -1,0 +1,2 @@
+$XONSH_COLOR_STYLE='monokai'
+source-bash $(/usr/libexec/path_helper -s)
