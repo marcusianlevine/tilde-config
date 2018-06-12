@@ -12,3 +12,8 @@ Configuration for my personal dev environment
 
 - User settings for VS Code.
 - See the docs for [standard location where this file should be placed](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations).
+
+### `.gitconfig`
+
+- Global `git` config file.
+- Should be placed in the user home folder (`~`)
