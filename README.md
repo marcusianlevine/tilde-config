@@ -16,4 +16,4 @@ Configuration for my personal dev environment
 ### `.gitconfig`
 
 - Global `git` config file.
-- Should be placed in the user home folder (`~`)
+- Should be placed in the user home folder (`~`).
