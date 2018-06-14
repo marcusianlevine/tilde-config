@@ -1,0 +1,14 @@
+Host spark-prod
+    HostName prod-spark-1.osslabs.net
+    User levinem
+    IdentityFile /Users/levinem/.ssh/id_rsa
+Host prod-spark-1
+    HostName prod-spark-1.osslabs.net
+    User levinem
+Host airflow
+    HostName prod-airflow-1.osslabs.net
+    User levinem
+
+Host dairflow
+    HostName dev-airflow-1.osslabs.net
+    User levinem
