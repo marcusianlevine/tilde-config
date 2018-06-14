@@ -14,5 +14,15 @@
     "editor.formatOnPaste": true,
     "files.autoSave": "afterDelay",
     "editor.insertSpaces": true,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "python.linting.flake8Enabled": true,
+    "editor.wordWrap": "on",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "workbench.iconTheme": "vscode-great-icons",
+    "files.associations": {
+        "Jenkinsfile": "declarative"
+    }
 }
