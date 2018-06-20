@@ -24,5 +24,8 @@
     "workbench.iconTheme": "vscode-great-icons",
     "files.associations": {
         "Jenkinsfile": "declarative"
-    }
+    },
+    "python.linting.pylintArgs": [
+        "--max-line-length=120"
+    ]
 }
