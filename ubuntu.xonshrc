@@ -1,0 +1,6 @@
+# include base xonshrc files
+source base.xsh
+source openslate.xsh
+
+# general env vars for ubuntu
+$PATH=['/home/marcu/anaconda3/bin'] + $PATH

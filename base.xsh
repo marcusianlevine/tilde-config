@@ -1,16 +1,9 @@
 # general config env vars
 $XONSH_COLOR_STYLE='monokai'
-source-bash $(/usr/libexec/path_helper -s)
-
-$PATH=['/usr/local/bin', '/usr/local/sbin'] + $PATH + ['/Applications/Visual Studio Code.app/Contents/Resources/app/bin']
-$SPARK_HOME=$(brew info apache-spark | grep /usr | tail -n 1 | cut -f 1 -d " " | tr -d '[:space:]') + '/libexec'
-$PYTHONPATH=['~/Documents/data-jobs/jobs/src', $SPARK_HOME + '/python']
 
 $PIPENV_SHELL_FANCY=1
 
-# openslate internal env vars
-$PIP_EXTRA_INDEX_URL='https://pypi.osslabs.net/repo/oss/'
-$CF_REMOTE_USER='levinem'
+$LS_COLORS='rs=0:di=01;36:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:'
 
 # load plugins
 xontrib load vox
@@ -22,6 +15,7 @@ aliases['ll'] = 'ls -la'
 aliases['pip'] = 'pip3'
 
 # git
+aliases['git'] = 'hub'
 aliases['g'] = 'git status -sb'
 aliases['gs'] = 'git status'
 aliases['gco'] = 'git checkout'

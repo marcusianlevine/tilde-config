@@ -1,0 +1,8 @@
+source base.xsh
+source openslate.xsh
+
+source-bash $(/usr/libexec/path_helper -s)
+
+$PATH=['/usr/local/bin', '/usr/local/sbin'] + $PATH + ['/Applications/Visual Studio Code.app/Contents/Resources/app/bin']
+$SPARK_HOME=$(brew info apache-spark | grep /usr | tail -n 1 | cut -f 1 -d " " | tr -d '[:space:]') + '/libexec'
+$PYTHONPATH=['~/Documents/data-jobs/jobs/src', $SPARK_HOME + '/python']
