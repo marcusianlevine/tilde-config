@@ -1,5 +1,7 @@
+source-bash ~/.profile
+
 # general config env vars
-$XONSH_COLOR_STYLE='monokai'
+#$XONSH_COLOR_STYLE='tango'
 
 $PIPENV_SHELL_FANCY=1
 

@@ -1,6 +1,9 @@
 # include base xonshrc files
-source base.xsh
-source openslate.xsh
+source /mnt/c/Users/marcu/Documents/Code/tilde-config/base.xsh
+source /mnt/c/Users/marcu/Documents/Code/tilde-config/openslate.xsh
+
+$BASH_COMPLETIONS.append('/mnt/c/Users/marcu/Documents/Code/tilde-config/hub.bash_completion.sh')
+#$BASH_COMPLETIONS.append('/mnt/c/Users/marcu/Documents/Code/tilde-config/gh_complete.sh')
 
 # general env vars for ubuntu
 $PATH=['/home/marcu/anaconda3/bin'] + $PATH
